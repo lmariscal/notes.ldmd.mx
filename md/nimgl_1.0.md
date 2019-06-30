@@ -38,7 +38,6 @@ igEnd()
 
 *Helper*
 ```nim
-# I have no clue how to remove the discards, but really want to do it.
 igBegin("MyWindow"):
   igDragFloat3("pos", pos.x.addr)
   igText("fps: %f", io.framerate)
